@@ -30,7 +30,6 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import com.capgemini.Technologylearningandtrackingappsprint2.TechnologyLearningAndTrackingAppSprint2Application;
 import com.capgemini.tlta.model.Assessment;
-import com.capgemini.tlta.model.RegisterUser;
 import com.capgemini.tlta.sevice.AssessmentActivityService;
 
 @ExtendWith(SpringExtension.class)

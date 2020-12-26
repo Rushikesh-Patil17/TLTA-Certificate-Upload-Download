@@ -70,7 +70,7 @@ public class LearningActivity implements Serializable {
 	@NotNull(message="Please provide a date in yyyy-MM-dd format")
 	@Temporal(TemporalType.DATE)
 	@Column(name = "activity_realsedate")
-	private Date activityRealseDate;
+	private Date activityReleaseDate;
 
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "assesment_id", nullable = true)
